@@ -53,7 +53,7 @@ export default function WorkDetail() {
                 <a
                   key={l.href}
                   href={l.href}
-                  className={`detail-link-btn${l.label === '观其境' ? ' primary' : ''}`}
+                  className={`detail-link-btn${l.label === '观其境' || l.label === '观其镜' ? ' primary' : ''}`}
                   target="_blank"
                   rel="noreferrer"
                   data-cursor={l.label}

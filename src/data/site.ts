@@ -44,7 +44,7 @@ export const projects: Project[] = [
     type: 'AI 创作台',
     year: '2026',
     summary: '一念成图：文生图、参考与蒙版同卷，密钥守于后山，云库自随人走。',
-    cover: 'linear-gradient(145deg, #0a0c12 0%, #1a2744 42%, #e8ff47 155%)',
+    cover: "url('/images/gouo-canvas-cover.png') center / cover no-repeat",
     client: '自研开源',
     duration: '持续迭代',
     tools: ['React', 'TypeScript', 'Vite', 'Go', 'One Hub'],
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     type: '开发者启动台',
     year: '2026',
     summary: 'Landing 为门，导航为径——项目、笔记、工具与信笺，一站启程。',
-    cover: 'linear-gradient(160deg, #0c0c0c 0%, #1c2430 48%, #e8ff47 145%)',
+    cover: "url('/images/wcnmb-cover.png') center / cover no-repeat",
     client: '个人作品',
     duration: '精炼成册',
     tools: ['React 19', 'Vite', '纯 CSS', 'i18n'],
@@ -79,7 +79,10 @@ export const projects: Project[] = [
       '零 UI 框架，CSS 变量驱题；Vite + React 19 构建，体量克制，便于部署于任意静态源。',
     ],
     outcome: '作为启程入口，把散落的链收束成可游的港。',
-    links: [{ label: 'GitHub', href: 'https://github.com/zhs1234/wcnmb' }],
+    links: [
+      { label: '观其镜', href: 'https://show.wcnmb.top' },
+      { label: 'GitHub', href: 'https://github.com/zhs1234/wcnmb' },
+    ],
   },
   {
     num: '03',
@@ -89,7 +92,7 @@ export const projects: Project[] = [
     type: '沉浸个人站',
     year: '2026',
     summary: '浏览器为纸，光影为墨——粒子、音场与诗词同卷，写 XGOUO 之境。',
-    cover: 'linear-gradient(135deg, #050505 0%, #141414 50%, #e8ff47 150%)',
+    cover: "url('/images/xgouo-atelier-cover.png') center / cover no-repeat",
     client: '本站',
     duration: '现境',
     tools: ['React', 'TypeScript', 'Three.js', 'Vite', 'Web Audio'],
@@ -100,7 +103,7 @@ export const projects: Project[] = [
       '纯静态可部署，Nginx 一则 try_files 即可；联系方式落于信笺——邮箱、QQ 与双域名同在卷末。',
     ],
     outcome: '你此刻所见，即是此卷。',
-    links: [{ label: 'GitHub', href: 'https://github.com/zhs1234' }],
+    links: [{ label: 'GitHub', href: 'https://github.com/zhs1234/atelier' }],
   },
 ]
 
